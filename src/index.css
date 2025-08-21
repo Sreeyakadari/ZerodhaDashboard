@@ -276,7 +276,7 @@ code {
 
 .menus li {
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 50px;
   text-decoration: none;
 }
 
@@ -322,7 +322,7 @@ hr {
 .profile .username {
   font-size: 0.8rem;
   font-weight: 300;
-} 
+}
 
 /* sudo selectors */
 
@@ -408,11 +408,11 @@ hr {
 }
 
 .order-table tr td:first-child p {
-    background: rgb(255, 197, 197);
-    color: rgb(233, 120, 120);
-    width: 50%;
-    text-align: center;
-    border-radius: 2px;
+  background: rgb(255, 197, 197);
+  color: rgb(233, 120, 120);
+  width: 50%;
+  text-align: center;
+  border-radius: 2px;
 }
 
 .order-table tr td:last-child {
@@ -473,7 +473,7 @@ hr {
 }
 
 /* sudo selector */
- .item:hover {
+.item:hover {
   cursor: pointer;
 }
 
@@ -537,9 +537,9 @@ hr {
 .data .first small {
   font-size: 0.8rem;
   color: rgb(72, 194, 55);
-} 
+}
 
- .data .first .profit {
+.data .first .profit {
   color: rgb(72, 194, 55);
 }
 
@@ -605,7 +605,7 @@ hr {
 .nifty > *,
 .sensex > * {
   margin-right: 8px;
-}  
+}
 
 .index {
   font-size: 0.8rem;
@@ -628,7 +628,7 @@ hr {
 }
 
 /* sudo selectors */
- .index:hover {
+.index:hover {
   cursor: pointer;
 }
 
@@ -722,9 +722,9 @@ hr {
   align-items: center;
   justify-content: flex-end;
   display: none;
-} 
+}
 
- .actions span button {
+.actions span button {
   width: 40px;
   height: 30px;
   border-radius: 4px;
@@ -800,10 +800,10 @@ hr {
 .settings {
   transform: scale(0.8);
   color: rgb(105, 105, 105);
-} 
+}
 
 /* sudo selectors */
- .search:focus {
+.search:focus {
   outline: none;
 }
 
@@ -815,10 +815,10 @@ hr {
 .list li:hover > .actions {
   display: flex;
   cursor: move;
-} 
+}
 
 /* TODO */
- .list li::before {
+.list li::before {
   content: "";
   background: transparent;
   width: 100%;
@@ -840,4 +840,4 @@ hr {
 
 .action:hover {
   background-color: rgb(212, 212, 212);
-}  
+}

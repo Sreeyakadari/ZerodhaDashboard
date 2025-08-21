@@ -88,21 +88,14 @@ const Menu = () => {
               </p>
             </Link>
           </li>
-          {/* <li >
-            <a
-              className="nav-link active"
-              href="https://zerodhafrontend-h1h5.onrender.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Home
-            </a>
-          </li> */}
           <Link
             style={{ textDecoration: "none" }}
             to="https://zerodhafrontend-h1h5.onrender.com/"
+            onClick={() => handleMenuClick(6)}
           >
-            <p>Home</p>
+            <p className={selectedMenu === 7 ? activeMenuClass : menuClass}>
+              Home
+            </p>
           </Link>
         </ul>
         <hr />

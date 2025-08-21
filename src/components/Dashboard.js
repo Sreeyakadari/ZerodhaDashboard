@@ -25,6 +25,18 @@ const Dashboard = () => {
           <Route path="/positions" element={<Positions />} />
           <Route path="/funds" element={<Funds />} />
           <Route path="/apps" element={<Apps />} />
+          <Route
+            path="/dashboard"
+            element={
+              <a
+                href="https://zerodhafrontend-h1h5.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Home
+              </a>
+            }
+          />
         </Routes>
       </div>
     </div>

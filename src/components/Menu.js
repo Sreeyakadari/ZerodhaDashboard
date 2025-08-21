@@ -88,6 +88,16 @@ const Menu = () => {
               </p>
             </Link>
           </li>
+          <li className="nav-item">
+            <a
+              className="nav-link active"
+              href="https://zerodhafrontend-h1h5.onrender.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Quick Peek
+            </a>
+          </li>
         </ul>
         <hr />
         <div className="profile" onClick={handleProfileClick}>

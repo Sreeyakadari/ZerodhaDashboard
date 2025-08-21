@@ -88,16 +88,22 @@ const Menu = () => {
               </p>
             </Link>
           </li>
-          <li className="nav-item">
+          {/* <li >
             <a
               className="nav-link active"
               href="https://zerodhafrontend-h1h5.onrender.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Quick Peek
+              Home
             </a>
-          </li>
+          </li> */}
+          <Link
+            style={{ textDecoration: "none" }}
+            to="https://zerodhafrontend-h1h5.onrender.com/"
+          >
+            <p>Home</p>
+          </Link>
         </ul>
         <hr />
         <div className="profile" onClick={handleProfileClick}>
